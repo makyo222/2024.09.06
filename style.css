@@ -1,0 +1,55 @@
+body
+{
+    background-color: red;
+}
+
+div
+{
+    background-color: whitesmoke;
+    position: relative;
+    height: 800px;
+    width: min-content;
+}
+
+@keyframes mogging
+{
+    0%{right: 100px;bottom: 200px;}
+    5%{rotate: 30deg;}
+    7.5%{rotate: -30deg;}
+    10%{rotate: 30deg;}
+    12.5%{rotate: -30deg;}
+    15%{rotate: 30deg;}
+    17.5%{right: 100px;bottom: 200px;rotate: 0deg;}
+    45%{right: 40%;bottom: 30%;}
+    50%{right: 75px;bottom: 110px;}
+    55%{right: 40%; bottom: 70px;}
+}
+
+@keyframes gomb
+{
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+#hand
+{
+    position: absolute;
+    right: 100px;
+    bottom: 200px;
+    height: 200px;
+}
+
+#dudi
+{
+    height: 800px;
+}
+
+button
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 200px;
+}
